@@ -19,6 +19,10 @@ Answer: Status code for http://google.com/teapot with the -iL command produced 3
         Status code for http://www.google.com/teapot with the -iL and -i command both produced a status code of 418.
 
 Question 7:
+Answer: The difference is that the form field for the output with -X POST contains "<DT>X: <i>&lt;type 'instance'&gt;</i> <DD>MiniFieldStorage('X', 'Y')", while the
+        form field for the output without -X POST contains "No form fields." This method is useful for inputing Form Content through the command line.
+        
+Question 8:
 Answer: 
         
 
