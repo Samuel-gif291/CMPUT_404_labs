@@ -15,6 +15,11 @@ Answer:  The status code for http://google.com is 301.
          The URL to visit is http://www.google.com
 
 Question 6:
-Answer:
+Answer: Status code for http://google.com/teapot with the -iL command produced 301 status code but then redirected to status code 418, while -i just returned a status code of 301.
+        Status code for http://www.google.com/teapot with the -iL and -i command both produced a status code of 418.
+
+Question 7:
+Answer: 
+        
 
 
